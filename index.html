@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ultra Lims Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <section id="formulario">
+        <div class="inputFormulario">
+            <label for="inputCEP">CEP</label>
+            <input id="inputCEP" placeholder="Insira os 8 digítos do CEP" type="number" size="8">
+        </div>
+        <div>
+            <button id="buttonEnviar" onclick="enviarDados()">
+                Enviar
+            </button>
+        </div>
+    </section>
+
+    <!-- "cep": "01001-000",
+    "logradouro": "Praça da Sé",
+    "complemento": "lado ímpar",
+    "bairro": "Sé",
+    "localidade": "São Paulo",
+    "uf": "SP",
+    "ibge": "3550308",
+    "gia": "1004",
+    "ddd": "11",
+    "siafi": "7107" -->
+    <section class="sectionTabela">
+        <table id="tabela" class="tabela">
+            <tr>
+              <th>CEP</th>
+              <th>Logradouro</th>
+              <th>Complemento</th>
+              <th>Bairro</th>
+              <th>Localidade</th>
+              <th>UF</th>
+              <th>IBGE</th>
+              <th>GIA</th>
+              <th>DDD</th>
+              <th>Siafi</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+            </tr>
+          </table>
+        
+
+    </section>
+    <script src="/scripts.js"></script>
+</body>
+
+</html>

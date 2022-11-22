@@ -1,0 +1,40 @@
+div{
+    background-color: rgb(175, 175, 175); 
+}
+
+.inputFormulario{
+    background-color: rgb(175, 175, 175);
+}
+
+input{
+    width: 100%;
+}
+
+#buttonEnviar{
+    border: 3px dotted black; 
+    text-align: center;
+}
+
+body{
+    background-color: rgb(125, 163, 190);
+    color: black;
+    text-align: center;
+}
+.sectionTabela{
+    display: flex;
+    justify-content: center;
+}
+
+.tabela{
+    border: 1px solid black;
+}
+
+.tabela th{
+    border-bottom: 1px dotted black;
+}
+
+.tabela td{
+    border-left: 1px solid gray;
+}
+
+
